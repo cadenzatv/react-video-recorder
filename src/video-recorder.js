@@ -20,11 +20,11 @@ import {
 } from './custom-errors'
 
 const MIME_TYPES = [
+  'video/mp4',
+  'video/webm',
   'video/webm;codecs="vp8,opus"',
   'video/webm;codecs=h264',
-  'video/webm;codecs=vp9',
-  'video/webm',
-  'video/mp4'
+  'video/webm;codecs=vp9'
 ]
 
 const CONSTRAINTS = {

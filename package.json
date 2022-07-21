@@ -1,5 +1,5 @@
 {
-  "name": "react-video-recorder-novel",
+  "name": "react-video-recorder",
   "main": "lib",
   "files": [
     "lib",
@@ -99,7 +99,7 @@
   "version": "0.0.0-development",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fbaiodias/react-video-recorder.git"
+    "url": "https://github.com/cadenzatv/react-video-recorder.git"
   },
   "license": "MIT"
 }
