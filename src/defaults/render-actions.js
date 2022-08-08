@@ -64,7 +64,7 @@ const Actions = ({
           onClick={onStopReplaying}
           data-qa='start-replaying'
         >
-          {t('Use another video')}
+          {t('Re-record')}
         </Button>
       )
     }
@@ -104,7 +104,7 @@ const Actions = ({
       </Button>
     ) : (
       <Button type='button' onClick={onTurnOnCamera} data-qa='turn-on-camera'>
-        {t('Turn my camera ON')}
+        {t('Allow Camera Access')}
       </Button>
     )
   }

@@ -68,3 +68,5 @@ storybook-static
 .npmrc
 
 package-lock.json
+
+**/.idea

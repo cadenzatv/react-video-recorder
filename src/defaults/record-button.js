@@ -52,12 +52,6 @@ Button.defaultProps = {
 
 const RecordButton = ({ t, ...props }) => (
   <RecWrapper>
-    <Instructions>
-      <div>{t('PRESS')} </div>
-      <InstuctionsHighlight> {t('REC')} </InstuctionsHighlight>
-      {t('WHEN READY')}
-    </Instructions>
-
     <ButtonBorder>
       <Button {...props} />
     </ButtonBorder>
